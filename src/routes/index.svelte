@@ -1,6 +1,9 @@
-<section id="about" class="flex flex-col gap-8 items-center px-4 py-16 sm:px-8 sm:py-16">
+<section id="about" class="flex flex-col gap-16 items-center px-4 py-16 sm:px-8 sm:py-16">
 	<h1 class="text-5xl font-bold">
-		Welcome to <span class="font-light tracking-widest">VOID</span> / DEVELOPMENT
+		<span class="p-4 border-[5px] border-black"
+			><span class="font-light tracking-widest">VOID</span>
+			<span class="tracking-widest">/</span> DEVELOPMENT</span
+		>
 	</h1>
 	<p class="text-2xl">Site currently under construction</p>
 	<svg
@@ -17,6 +20,6 @@
 
 <style>
 	#about {
-		height: calc(100vh - 8rem);
+		height: calc(100vh - 12rem);
 	}
 </style>
