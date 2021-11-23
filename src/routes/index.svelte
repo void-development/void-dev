@@ -1,5 +1,5 @@
 <section id="about" class="flex flex-col gap-16 items-center px-4 py-16 sm:px-8 sm:py-16">
-	<h1 class="text-5xl font-bold">
+	<h1 class="text-2xl font-bold sm:text-5xl">
 		<span class="p-4 border-[5px] border-black"
 			><span class="font-light tracking-widest">VOID</span>
 			<span class="tracking-widest">/</span> DEVELOPMENT</span
