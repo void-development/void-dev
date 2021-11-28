@@ -1,11 +1,5 @@
 <section id="about" class="flex flex-col gap-16 items-center px-4 py-16 sm:px-8 sm:py-16">
-	<h1 class="text-2xl font-bold sm:text-5xl">
-		<span class="p-4 border-[5px] border-black"
-			><span class="font-light tracking-widest">VOID</span>
-			<span class="tracking-widest">/</span> DEVELOPMENT</span
-		>
-	</h1>
-	<p class="text-2xl">Site currently under construction</p>
+	<h1 class="text-4xl font-bold">Site currently under construction</h1>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		fill="currentColor"

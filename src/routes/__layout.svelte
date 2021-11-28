@@ -2,10 +2,8 @@
 	import 'tailwindcss/tailwind.css';
 </script>
 
-<header class="flex justify-start items-center w-full h-24 px-4 border-b-2 sm:px-8">
-	<p class="p-2 border-[5px] border-black text-xl font-semibold sm:text-3xl">
-		<span class="font-light tracking-widest">VOID</span> <span class="tracking-widest">/</span> DEV
-	</p>
+<header class="flex justify-center items-center w-full h-24 px-4 border-b-2 sm:justify-start">
+	<img src="/logo.svg" alt="Void Development Logo" class="font-sans" />
 </header>
 
 <main>
