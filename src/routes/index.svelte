@@ -1,5 +1,17 @@
-<section id="about" class="flex flex-col gap-16 items-center px-4 py-16 sm:px-8 sm:py-16">
-	<h1 class="text-4xl font-bold">Site currently under construction</h1>
+<svelte:head>
+	<title>VOID Development - Custom Websites and Software Development</title>
+	<meta
+		name="description"
+		content="VOID Development is a web development company based out of Lexington, KY."
+	/>
+</svelte:head>
+
+<section
+	id="about"
+	class="flex flex-col gap-8 items-center px-4 py-16 text-center sm:px-8 sm:py-16"
+>
+	<h1 class="text-4xl font-bold">Welcome to VOID Development!</h1>
+	<p class="text-2xl">Site is still in development. Keep checking back for updates!</p>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		fill="currentColor"
