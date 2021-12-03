@@ -26,6 +26,6 @@
 
 <style>
 	#about {
-		height: calc(100vh - 12rem);
+		min-height: calc(100vh - 12rem);
 	}
 </style>

@@ -2,7 +2,9 @@
 	import 'tailwindcss/tailwind.css';
 </script>
 
-<header class="flex justify-center items-center w-full h-24 px-8 border-b-2 sm:justify-start">
+<header
+	class="flex justify-center items-center w-full h-24 px-8 bg-white border-b-2 sm:justify-start"
+>
 	<img src="/logo.svg" alt="Void Development Logo" class="object-scale-down w-48" />
 </header>
 
@@ -10,6 +12,6 @@
 	<slot />
 </main>
 
-<footer class="flex justify-center items-center w-full h-24 border-t-2">
+<footer class="flex justify-center items-center w-full h-24 bg-white border-t-2">
 	<p class="text-xl">Coded by VOID Development</p>
 </footer>
