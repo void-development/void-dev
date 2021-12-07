@@ -8,7 +8,7 @@
 	<img src="/logo-full-horizontal.svg" alt="Void Development Logo" class="object-scale-down w-80" />
 </header>
 
-<main class="px-8 sm:px-16">
+<main class="p-8 sm:p-16">
 	<slot />
 </main>
 
