@@ -3,12 +3,12 @@
 </script>
 
 <header
-	class="flex justify-center items-center w-full h-24 px-8 bg-white border-b-2 sm:justify-start"
+	class="flex justify-center items-center w-full h-24 px-8 bg-white border-b-2 sm:justify-start sm:px-16"
 >
-	<img src="/logo.svg" alt="Void Development Logo" class="object-scale-down w-48" />
+	<img src="/logo-full-horizontal.svg" alt="Void Development Logo" class="object-scale-down w-80" />
 </header>
 
-<main>
+<main class="px-8 sm:px-16">
 	<slot />
 </main>
 
