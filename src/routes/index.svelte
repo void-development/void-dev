@@ -6,7 +6,7 @@
 	/>
 </svelte:head>
 
-<section id="about" class="flex flex-col gap-8 items-center text-center">
+<section id="about" class="flex flex-col gap-8 items-center p-8 text-center sm:p-16">
 	<h1 class="text-4xl font-bold">Welcome to VOID Development!</h1>
 	<p class="text-2xl">Site is still in development. Keep checking back for updates!</p>
 	<svg
