@@ -1,12 +1,13 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    'src/**/*.html',
-    'src/**/*.svelte',
+  content: [
+    'src/**/*.{html,svelte}',
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Open Sans', 'sans-serif']
+      }
+    },
   },
   variants: {
     extend: {},
