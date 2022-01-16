@@ -31,7 +31,7 @@
 
 {#if windowWidth !== undefined}
 	{#if windowWidth >= breakpoint}
-		<div class="relative flex justify-between items-center w-full h-full px-16">
+		<div class="relative flex justify-between items-center w-full h-full">
 			<a href="/#">
 				<img id="nav-logo" src={logo} alt="VOID Development" class="h-10" />
 			</a>
@@ -41,7 +41,7 @@
 		<!-- Logo -->
 
 		<div
-			class="absolute flex justify-center items-center left-1/2 transform -translate-x-1/2 md:left-4 md:transform-none h-full cursor-pointer"
+			class="absolute left-0 top-0 flex justify-center items-center w-full h-full cursor-pointer"
 		>
 			<a href="/#">
 				<img id="nav-logo" src={logo} alt="VOID Development" class="h-10" />
