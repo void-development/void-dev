@@ -1,7 +1,22 @@
 <script>
+	import { tweened } from 'svelte/motion';
+	import { sineIn, sineOut } from 'svelte/easing';
 	import Line from '$lib/Line.svelte';
 	import H2 from '$lib/H2.svelte';
 	import Contact from '$lib/Contact/Contact.svelte';
+
+	const initialOpacity = 25;
+	const duration = 1000;
+
+	const opacity0 = tweened(initialOpacity, { duration: duration, easing: sineOut });
+	const opacity1 = tweened(initialOpacity, { duration: duration, easing: sineOut });
+	const opacity2 = tweened(initialOpacity, { duration: duration, easing: sineOut });
+	const scale = tweened(0, { duration: duration, easing: sineIn });
+
+	setTimeout(() => opacity0.set(100), 1000);
+	setTimeout(() => opacity1.set(100), 2000);
+	setTimeout(() => opacity2.set(100), 3000);
+	setTimeout(() => scale.set(100), 4000);
 </script>
 
 <svelte:head>
@@ -18,12 +33,12 @@
 	<section id="about" class="flex flex-col items-center gap-16">
 		<h1 class="text-left text-6xl font-extrabold tracking-normal">
 			<ol class="flex flex-col gap-8 list-none">
-				<li>DESIGN</li>
-				<li>DEVELOP</li>
-				<li>UPDATE</li>
+				<li style={`opacity: ${$opacity0}%`}>DESIGN</li>
+				<li style={`opacity: ${$opacity1}%`}>DEVELOP</li>
+				<li style={`opacity: ${$opacity2}%`}>UPDATE</li>
 			</ol>
 		</h1>
-		<Line />
+		<Line style={`transform-origin: top center; transform: scaleY(${$scale}%)`} />
 	</section>
 
 	<!-- Design -->
