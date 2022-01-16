@@ -84,7 +84,7 @@
 			<em class="not-italic font-bold">YOU</em>.
 		</p>
 		<p class="w-full">
-			Minimalist, <span class="text-pink-600 italic">artsy</span>, or
+			Minimalist, <span class="text-pink-600 font-bold italic">artsy</span>, or
 			<span class="font-bold">bold</span>, no matter your style we can get it translated to a
 			website that accurately represents you or your business.
 		</p>
