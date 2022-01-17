@@ -123,16 +123,16 @@
 		</div>
 		<p class="w-full">
 			All of our websites are custom coded using best practices. We don't hack together messy
-			unmaintainable code because we plan on the being the one to maintain the site! With
-			traditional web development companies the faster and messier your site is developed, the
-			better. Once it's built they can just charge you an hourly rate to fix it.
+			unmaintainable code because we plan on being the one to maintain the site! With traditional
+			web development companies, the faster and messier your site is developed, the better. Once
+			it's built they can just charge you an hourly rate to fix it.
 		</p>
 		<p class="w-full">
-			Another advantage for our approach to web development is speed. Our sites are <em
+			Another advantage with our approach to web development is speed. Our websites are <em
 				class="italic font-bold">FAST</em
-			>. A fast is website is important to your users, but it's also important for SEO (search
-			engine optimization), helping you website get discovered by new clients. Search engines don't
-			want to recommend a slow, bloated site to their users, it makes them look bad!
+			>. A fast website is important to your users, but it's also important for SEO (search engine
+			optimization), helping you website get discovered by new clients. Search engines don't want to
+			recommend a slow, bloated site to their users, it makes them look bad!
 		</p>
 		<p class="w-full">
 			Accessibility is a top priority for us as well. We ensure that your website is accessible to
