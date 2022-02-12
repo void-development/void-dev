@@ -40,9 +40,7 @@
 	{:else}
 		<!-- Logo -->
 
-		<div
-			class="absolute left-0 top-0 flex justify-center items-center w-full h-full cursor-pointer"
-		>
+		<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer">
 			<a href="/#">
 				<img id="nav-logo" src={logo} alt="VOID Development" class="h-10" />
 			</a>

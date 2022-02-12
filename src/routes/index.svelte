@@ -5,7 +5,7 @@
 	import H2 from '$lib/H2.svelte';
 	import Contact from '$lib/Contact/Contact.svelte';
 
-	const initialOpacity = 25;
+	const initialOpacity = 15;
 	const duration = 1000;
 
 	const opacity0 = tweened(initialOpacity, { duration: duration, easing: sineOut });
@@ -123,15 +123,15 @@
 		</div>
 		<p class="w-full">
 			All of our websites are custom coded using best practices. We don't hack together messy
-			unmaintainable code because we plan on being the one to maintain the site! With traditional
-			web development companies, the faster and messier your site is developed, the better. Once
-			it's built they can just charge you an hourly rate to fix it.
+			unmaintainable code because we plan on being the one to maintain the site. After your website
+			it built we want to stay in touch! We offer hosting solutions for websites that we build and
+			we want to hear feedback from our customers so that we can improve.
 		</p>
 		<p class="w-full">
 			Another advantage with our approach to web development is speed. Our websites are <em
 				class="italic font-bold">FAST</em
 			>. A fast website is important to your users, but it's also important for SEO (search engine
-			optimization), helping you website get discovered by new clients. Search engines don't want to
+			optimization), helping you website get discovered by new people. Search engines don't want to
 			recommend a slow, bloated site to their users, it makes them look bad!
 		</p>
 		<p class="w-full">
@@ -177,15 +177,14 @@
 			changes at breakneck speeds and what might look sleek and modern today, will look old and
 			outdated within a few months. That's where regular updates come into play. Security patches,
 			content updates and making sure your website stays modern are all important to your businesses
-			reputation. If your website was built by VOID Development and you stay on our VOID plan, all
-			of these services are included at no extra cost! No hourly rates, no negotiating, just a
-			modern, up to date website, that stays that way.
+			reputation. If your website was built by VOID Development and you stay on our hosting plan all
+			of these services are heavily discounted as a thank you for being a customer.
 		</p>
 		<p>
-			What if you change your mind on some design aspects or want to update some text on your
-			website? As long as you are signed up for our VOID plan you don't have to worry about getting
-			hit with an hourly rate for website updates, just send us the new content and we'll get it
-			done!
+			What if we didn't build your website? If your website is old, slow, and very outdated it may
+			be worth a complete rebuild. However if it just needs a facelift or some new styling we can do
+			that too! You don't have to worry about hourly rates or unexpected fees, just let us know what
+			you would like changed or updated and we will get the job done.
 		</p>
 		<Line />
 	</section>

@@ -67,10 +67,7 @@
 			</li>
 		</ul>
 	</div>
-	<form
-		id="contact-form"
-		class="flex flex-col justify-center items-center w-full bg-white shadow sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 2xl:w-1/5"
-	>
+	<form id="contact-form" class="flex flex-col justify-center items-center w-80 bg-white shadow">
 		<fieldset class="grid grid-cols-1 gap-y-8 w-full p-12 text-left">
 			<div>
 				<label for="name" class="text-lg pb-1">
