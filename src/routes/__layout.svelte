@@ -9,7 +9,6 @@
 	let navBorder = false;
 
 	$: windowWidth < 640 ? (logo = '/logo.svg') : (logo = '/logo-full-horizontal.svg');
-	$: y === 0 ? (navBorder = false) : (navBorder = true);
 
 	let navButtons = [
 		{ text: 'About', href: '/#' },
@@ -20,6 +19,7 @@
 <svelte:window bind:innerWidth={windowWidth} bind:scrollY={y} />
 
 <header class="fixed top-0 w-full h-24 z-50 sm:justify-start">
+	<!-- Nav -->
 	<div class="absolute top-0 w-full h-24 px-8 backdrop-blur-sm z-40 md:px-16 lg:px-32">
 		<NavBar {logo} {navButtons} headerHeight="6rem" />
 	</div>
@@ -28,9 +28,12 @@
 		class="absolute top-0 w-full h-24 m-0 p-0 bg-white opacity-100 z-30 md:opacity-90"
 	/>
 </header>
-
-{#if navBorder}
-	<div transition:fade={{ duration: 100 }} class="fixed top-24 w-full h-0.5 bg-gray-200 z-50" />
+<!-- Nav Border -->
+{#if y}
+	<div
+		transition:fade|local={{ duration: 100 }}
+		class="fixed top-24 w-full h-0.5 bg-gray-200 z-50"
+	/>
 {/if}
 
 <main class="mt-24 bg-white font-open-sans">
