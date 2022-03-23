@@ -1,15 +1,15 @@
 <script>
 	import '../app.css';
 	import NavBar from '$lib/Nav/NavBar.svelte';
+	import { fade } from 'svelte/transition';
 
-	let logo;
 	let windowWidth;
+	let y;
+	let logo;
+	let navBorder = false;
 
-	$: if (windowWidth < 640) {
-		logo = '/logo.svg';
-	} else {
-		logo = '/logo-full-horizontal.svg';
-	}
+	$: windowWidth < 640 ? (logo = '/logo.svg') : (logo = '/logo-full-horizontal.svg');
+	$: y === 0 ? (navBorder = false) : (navBorder = true);
 
 	let navButtons = [
 		{ text: 'About', href: '/#' },
@@ -17,12 +17,10 @@
 	];
 </script>
 
-<svelte:window bind:innerWidth={windowWidth} />
+<svelte:window bind:innerWidth={windowWidth} bind:scrollY={y} />
 
 <header class="fixed top-0 w-full h-24 z-50 sm:justify-start">
-	<div
-		class="absolute top-0 w-full h-24 px-8 backdrop-blur-sm border-b-2 border-gray-200 z-40 md:px-16 lg:px-32"
-	>
+	<div class="absolute top-0 w-full h-24 px-8 backdrop-blur-sm z-40 md:px-16 lg:px-32">
 		<NavBar {logo} {navButtons} headerHeight="6rem" />
 	</div>
 	<div
@@ -31,7 +29,11 @@
 	/>
 </header>
 
-<main class="mt-24 bg-gray-50 font-open-sans">
+{#if navBorder}
+	<div transition:fade={{ duration: 100 }} class="fixed top-24 w-full h-0.5 bg-gray-200 z-50" />
+{/if}
+
+<main class="mt-24 bg-white font-open-sans">
 	<div id="header-blur" class="fixed top-0 w-full h-24" />
 	<slot />
 </main>
